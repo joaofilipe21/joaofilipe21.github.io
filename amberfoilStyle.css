@@ -1,0 +1,23 @@
+body{
+  background-color: #0E0C17;
+  height: 100vh;
+}
+.title{
+  color: white;
+  font-size: 5rem;
+  font-family: 'Cinzel', cursive;
+  margin-top: 25vh;
+  display:none;
+}
+.subtitle{
+  font-size: 2.5rem;
+  margin-top: 5vh;
+  color: #8A73E3;
+  font-family: 'Overlock', cursive;
+  display: none;
+}
+
+/* Fonts: font-family: 'Overlock', cursive;
+font-family: 'Overlock SC', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive; */
