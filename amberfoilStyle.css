@@ -1,20 +1,47 @@
 body{
-  background-color: #0E0C17;
   height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/joao-vlog-back.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
-.title{
-  color: white;
-  font-size: 5rem;
-  font-family: 'Cinzel', cursive;
-  margin-top: 25vh;
-  display:none;
+
+.main{
+  text-align: center;
 }
 .subtitle{
   font-size: 2.5rem;
-  margin-top: 5vh;
+  padding-top: 3vh;
   color: #8A73E3;
   font-family: 'Overlock', cursive;
+}
+
+.img-title-fit {
+  padding-top: 15vh;
+  height: auto;
+  max-width: 50vh;
+}
+
+.img-seed-fit {
+  padding-top: 20vh;
+  height: auto;
+  max-width: 50vh;
+}
+#seed {
   display: none;
+}
+
+/* For bootstrap sm screen sizes*/
+@media screen and (max-width: 768px) {
+  .img-seed-fit {
+    padding-top: 0vh;
+    max-width: 30vh;
+  }
+  .img-title-fit {
+    padding-top: 10vh;
+    max-width: 40vh;
+  }
 }
 
 /* Fonts: font-family: 'Overlock', cursive;
