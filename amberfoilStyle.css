@@ -1,48 +1,79 @@
 body{
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img/joao-vlog-back-compressed.jpg");
+  background-color: #272727
+  /*
+  background-image: url("./img/joao-vlog-back-compressed.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; */
+}
+
+
+/* header elements */
+.amber-header{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.stamp{
+  height: 14vh;
+}
+
+/* center image elements */
+.main{
+  height: 70vh;
+  background-color: #272727;
+  background-image: url("./img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-}
-
-.main{
+  /* Center element */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
-.subtitle{
-  font-size: 2.5rem;
-  padding-top: 3vh;
-  color: #8A73E3;
-  font-family: 'Overlock', cursive;
+
+.main h2{
+  font-family: 'Cinzel', serif;
+  color: #CCCCCC;
 }
 
-.img-title-fit {
-  padding-top: 15vh;
-  height: auto;
-  max-width: 50vh;
+/* footer elements */
+.foil-footer{
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.img-seed-fit {
-  padding-top: 20vh;
-  height: auto;
-  max-width: 50vh;
-}
-#seed {
-  display: none;
+
+.foil-footer ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* For bootstrap sm screen sizes*/
-@media screen and (max-width: 768px) {
-  .img-seed-fit {
-    padding-top: 0vh;
-    max-width: 30vh;
-  }
-  .img-title-fit {
-    padding-top: 10vh;
-    max-width: 40vh;
-  }
+.foil-footer li{
+  float: left;
+  font-size: 5vh; 
+  margin: 3vh;
+  color: #7A7A7A;
+} 
+
+.foil-footer a{
+  color: #7A7A7A;
 }
+
+.foil-footer a:hover{
+    color: #CCCCCC;
+}
+
 
 /* Fonts: font-family: 'Overlock', cursive;
 font-family: 'Overlock SC', cursive;
