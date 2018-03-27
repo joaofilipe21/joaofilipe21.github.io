@@ -41,7 +41,7 @@ body{
 .main h2{
   font-family: 'Cinzel', serif;
   color: #CCCCCC;
-  font-kerning: 4px;
+  letter-spacing: 3px;
 }
 
 /* footer elements */
